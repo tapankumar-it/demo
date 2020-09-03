@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-@RequestMapping("demo")
+//@RequestMapping("demo")
 public class UserInterfaceController {
 
     @Autowired @Qualifier("restTemplateBean")
