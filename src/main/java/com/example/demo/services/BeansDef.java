@@ -17,7 +17,7 @@ public class BeansDef {
     @Bean
     @Qualifier("str")
     public String str1(){
-        return "string qua";
+        return "string test value";
     }
 
     @Bean
